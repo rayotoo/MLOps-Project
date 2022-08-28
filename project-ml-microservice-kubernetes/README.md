@@ -47,4 +47,8 @@ source .devops/bin/activate
 * Run via kubectl
 
 ## Files in the repository.
+Output.txt contains 3 files:
+1. Which is the `docker_out.txt`
+2. The output of kubenetes including the pod’s name and status, as well as the port forwarding and handling text. `tkuberbetes.out.txt`
+3. The output after running a prediction via Kubernetes deployment`kubernetes_out.txt`
 
