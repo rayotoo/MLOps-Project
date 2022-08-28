@@ -1,0 +1,8 @@
+Error from server (AlreadyExists): pods "udacitydevops" already exists
+NAME            READY   STATUS    RESTARTS        AGE
+udacitydevops   1/1     Running   1 (6m32s ago)   8m23s
+Forwarding from 127.0.0.1:8080 -> 80
+Forwarding from [::1]:8080 -> 80
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
