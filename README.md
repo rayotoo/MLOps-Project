@@ -1,3 +1,9 @@
+# Operationalize Machine Learning Microservice API.
+[![CircleCI](https://dl.circleci.com/status-badge/img/gh/rayotoo/MLOps-Project/tree/main.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/rayotoo/MLOps-Project/tree/main)
+
+
+
+
 ## Cloud DevOps ND - C4- Microservices at Scale using AWS & Kubernetes - Supporting Material and Project Starter
 
 # Commands that were ran for the Micro-services project
