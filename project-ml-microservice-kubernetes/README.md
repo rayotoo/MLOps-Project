@@ -31,6 +31,16 @@ python3 -m virtualenv --python=<path-to-Python3.7> .devops
 source .devops/bin/activate
 ```
 * Run `make install` to install the necessary dependencies
+* Install hadolint using
+```
+brew install hadolint
+```
+* install minikube using
+```
+brew install minikube
+```
+* Install docker from site `https://docs.docker.com/v17.12/install/`
+
 ---
 ### Running `app.py`
 
