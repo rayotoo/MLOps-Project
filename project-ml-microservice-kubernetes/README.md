@@ -30,6 +30,8 @@ python3 -m pip install --user virtualenv
 python3 -m virtualenv --python=<path-to-Python3.7> .devops
 source .devops/bin/activate
 ```
+---
+## Install Required applications
 * Run `make install` to install the necessary dependencies
 * Install hadolint using
 ```
