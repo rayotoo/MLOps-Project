@@ -32,23 +32,23 @@ python3 -m virtualenv --python=<path-to-Python3.7> .devops
 source .devops/bin/activate
 ```
 * Run `make install` to install the necessary dependencies
-
+---
 ### Running `app.py`
 
 1. Standalone:  `python app.py`
 2. Run in Docker:  `./run_docker.sh`
 3. Run in Kubernetes:  `./run_kubernetes.sh`
-
+---
 ### Kubernetes Steps
 
 * Setup and Configure Docker locally
 * Setup and Configure Kubernetes locally
 * Create Flask app in Container
 * Run via kubectl
-
+---
 ## Files in the repository.
 The `output_txt_files` directory contains 3 files:
-1. The output that includes all log statements and the health of an interaction `docker_out.txt`.
-2. The output of kubenetes including the pod’s name and status, as well as the port forwarding and handling text. `kuberbetes.out.txt`.
-3. The output after running a prediction via Kubernetes deployment`kubernetes_out.txt`.
+1. Output including all log statements and the health of an interaction `docker_out.txt`.
+2. Output of kubenetes including the pod’s name and status, as well as the port forwarding and handling text. `kuberbetes.out.txt`.
+3. Output after running a prediction via Kubernetes deployment`kubernetes_out.txt`.
 
