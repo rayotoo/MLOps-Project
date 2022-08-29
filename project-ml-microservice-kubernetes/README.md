@@ -56,8 +56,13 @@ brew install minikube
 * Run via kubectl
 ---
 ## Files in the repository.
-The `output_txt_files` directory contains 3 files:
+* The `output_txt_files` directory contains 3 files:
 1. Output including all log statements and the health of an interaction `docker_out.txt`.
 2. Output of kubenetes including the pod’s name and status, as well as the port forwarding and handling text. `kuberbetes.out.txt`.
 3. Output after running a prediction via Kubernetes deployment`kubernetes_out.txt`.
+
+* `run_kubernetes.sh` This script runs a docker image with kubernetes, lists the kubernetes pod(s), and forwards the container port to a host.
+* `.circleci` : The directory holds a config.yml that checks the project code for errors.
+* `run_docker.sh` : Build, list, and run steps.
+* `upload_docker.sh` : Uploads the built docker image to your own personal Docker ID.
 
