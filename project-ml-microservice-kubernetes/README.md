@@ -16,7 +16,7 @@ The goal of the project was to operationalize a working, machine learning micros
 
 
 
-**The final implementation of the project will showcase your abilities to operationalize production microservices.**
+**The final implementation of the project showcases my abilities to operationalize production microservices.**
 
 ---
 
